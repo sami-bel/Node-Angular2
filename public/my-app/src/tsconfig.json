@@ -1,0 +1,38 @@
+//{
+//  "compilerOptions": {
+//    "target": "es5",
+//    "baseUrl": "node_module",
+//    "module": "commonjs",
+//    "moduleResolution": "node",
+//    "outDir": "../dist/out-tsc",
+//    "sourceMap": true,
+//    "emitDecoratorMetadata": true,
+//    "experimentalDecorators": true,
+//    "lib": [ "es2015", "dom" ],
+//    "noImplicitAny": true,
+//    "suppressImplicitAnyIndexErrors": true,
+//    "typeRoots": [
+//            "../node_modules/@types"
+//          ]
+//  }
+//}
+
+{
+  "compilerOptions": {
+    "baseUrl": "",
+    "declaration": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": ["es6", "dom"],
+    "mapRoot": "./",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "../dist/out-tsc",
+    "sourceMap": true,
+    "target": "es5",
+    "typeRoots": [
+      "../node_modules/@types"
+    ]
+  }
+}
+
